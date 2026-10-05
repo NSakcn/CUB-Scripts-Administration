@@ -11,3 +11,7 @@ Write-Host "Test de la passerelle"
 ping -c 2 192.168.5.126
 Write-Host "Test de résolution DNS"
 nslookup www.example.com
+
+Write-Host "Informations système"
+sw_vers
+system_profiler SPHardwareDataType
